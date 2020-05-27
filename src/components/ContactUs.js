@@ -12,13 +12,35 @@ export default class ContactUs extends Component {
             </div>
           </div>
           <div className="row">
-            <aside className="eigth columns footer-widgets">
+            
               <div className="widget">
-                <h4>Linked in :
-                  {resumeData.linkedinId}
-                </h4>
+                <h4>Contact Me</h4>
+                <form action="POST" data-netlify="true">
+                  <div className="fields">
+                    <div className="field half">
+                      <input type="text" name="name" id="name" placeholder="Name"/>
+                    </div>
+                    <div className="field half">
+                      <input type="email" name="email" id="email" placeholder="Email"/>
+                    </div>
+                    <div className="field">
+                      <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+                    </div>
+                    <div className="field">
+                      <input type="file" name="myfile" id="myfile" placeholder="Upload File" rows="7" />
+                    </div>
+                    <div className="field">
+                      <div data-netlify-recaptcha="true"></div>
+                    </div>
+                  </div>
+                  <ul class="actions">
+                    <li>
+                      <input type="submit" value="Send Message" class="button primary"/>
+                    </li>
+                  </ul>
+                </form>
               </div>
-            </aside>
+            
           </div>
         </section>
         );

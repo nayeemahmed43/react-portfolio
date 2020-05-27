@@ -1,30 +1,36 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
+    "name": "Nayeem Ahmed",
+    "role": "Web Developer . Programmer . Dreamer",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": "",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/nayeem-ahmed-2033aa14b/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/nayeemahmed43",
           "className":"fa fa-github"
         },
         {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
+          "name":"twitter",
+          "url":"https://twitter.com/nayeemahmed43",
           "className":"fa fa-twitter"
+        },
+        {
+          "name":"instagram",
+          "url":"https://www.instagram.com/nayeem_ahmed___/?hl=bn",
+          "className":"fa fa-instagram"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"Highly motivated Front-End Developer and Programmer graduated from University of Rajshahi in CSE.I like to create clean,clear and effective websites that give the user the ultimate experience.I am good at MERN stack.I have special fascination in all cutting-edge technologies and try surf on those ones.I am available for any good opportunity.",
+    "address":"Dhaka, Bangladesh.",
+    "cell":"+8801670261934",
+    "email":"nayeemahmedru@gmail.com",
     "education":[
       {
         "UniversityName":"The LNM Insitute of Information Technology",
@@ -67,38 +73,70 @@ let resumeData = {
       },
       {
         "skillname":"Reactjs"
-      }
+      },
+      {
+        "skillname":"Bootstrap"
+      },
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Social Networking Site",
+        "description":" User can post their status Including picture as well as follow other users by sign in.",
+        "imgurl":"images/portfolio/sns.jpg",
+        "livesite":"https://social-networking-site-sns.herokuapp.com/",
+        "github":"https://github.com/nayeemahmed43/Social-Network-Site"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"E-commerce Site",
+        "description":"Client can buy their products from this online platform by payment.",
+        "imgurl":"images/portfolio/emajohn.jpg",
+        "livesite":"https://ema-john-simple-bfcf0.firebaseapp.com/",
+        "github":"https://github.com/nayeemahmed43/ema-john-simple"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "name":"Weather App",
+        "description":"User can search with particular city name for weather forecast.",  
+        "imgurl":"images/portfolio/weatherapp.jpg",
+        "livesite":"https://weather-app-na.herokuapp.com/",
+        "github":"https://github.com/nayeemahmed43/WeatherApp"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Red Onion Restaurant",
+        "description":"Client can order foods from this site by online payment.",
+        "imgurl":"images/portfolio/redonion.jpg",
+        "livesite":"https://red-onion-f490f.web.app/",
+        "github":"https://github.com/nayeemahmed43/hot-onion-restaurant"
+      },
+      {
+        "name":"React To-Do App",
+        "description":"This is a simple to-do app that helps to make to-do list.User can delete or update item from the to-do list",
+        "imgurl":"images/portfolio/todo.jpg",
+        "livesite":"",
+        "github":"https://github.com/nayeemahmed43/react-todolist"
+      },
+      {
+        "name":"Hot Gadgets",
+        "description":"it's a online shop for mobile, laptop and other gadgets.",
+        "imgurl":"images/portfolio/hotgadget.jpg",
+        "livesite":"https://nayeemahmed43.github.io/Hot-Gadgets-Ecommerce/",
+        "github":"https://github.com/nayeemahmed43/Hot-Gadgets-Ecommerce"
       }
     ],
     "testimonials":[
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "name":"State Management In React",
+        "description":"State management is an important part for the development of React Application. There are several ways to manage state in React. You can use “Redux” or you can use “React Functional Component” with “React Hook” or you can implement “React Context API” concept to manage state...",
+        "bloglink":"https://medium.com/@nayeemahmed_48263/state-management-in-react-bd55b1c77378"
       },
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "name":"Firebase Authentication for Web App",
+        "description":"Firstly you have to go to Firebase website and create a project. Click in “Get started” button and then create your project by clicking “Add project” button.Here I have showed some screenshots...",
+        "bloglink":"https://medium.com/@nayeemahmed_48263/firebase-authentication-for-web-app-6ae9b47714fb"
+      },
+      {
+        "name":"Things you should know in JavaScript",
+        "description":"let and const both are ES6 feature. They are block level declaration that means there is no access of the variable declared by let and const. There is no variable hoisting and variable can’t be redefined in the same block when let or const is used.",
+        "bloglink":"https://medium.com/@nayeemahmed_48263/things-you-should-know-in-javascript-4817ac572140"
       }
     ]
   }
