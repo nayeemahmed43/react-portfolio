@@ -15,7 +15,7 @@ export default class ContactUs extends Component {
             
               <div className="widget">
                 <h4>Contact Me</h4>
-                <form action="POST" data-netlify="true">
+                <form name="contact" method="POST" data-netlify="true">
                   <div className="fields">
                     <div className="field half">
                       <input type="text" name="name" id="name" placeholder="Name"/>
